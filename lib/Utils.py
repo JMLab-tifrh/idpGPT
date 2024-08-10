@@ -14,7 +14,7 @@ def read_fasta(file):
         while line:
             if line[0] == ">":
                 sequences.append(seq)
-                entry.append(line[:-1])
+                entry.append(line[1:-1])
                 seq = ""
                 line = f.readline()
                 continue
