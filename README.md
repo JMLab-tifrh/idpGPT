@@ -7,7 +7,7 @@ PDB* GPT  : generates sequences that would not undergo LLPS unless very drastic 
 
 ## Usage
 please set the following environment variable to use the scripts </br>
-bash : `export PYTHONPATH=$PYTHONPATH:/<path to the lib directory>`</br>
+bash : `export PYTHONPATH=$PYTHONPATH:<path to the lib directory>`</br>
 csh  : `setenv PYTHONPATH "$PYTHONPATH:<path to the lib directory>`</br>
 zsh  : `export PYTHONPATH=$PYTHONPATH:<path to the lib directory>`</br>
 fish : `set -x PYTHONPATH $PYTHONPATH <path to the lib directory>`</br>
