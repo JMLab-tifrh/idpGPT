@@ -7,10 +7,12 @@ PDB* GPT  : generates sequences that would not undergo LLPS unless very drastic 
 
 ## Usage
 please set the following environment variable to use the scripts </br>
-bash : `export PYTHONPATH=$PYTHONPATH:<path to the lib directory>`</br>
-csh  : `setenv PYTHONPATH "$PYTHONPATH:/path/to/the/lib/directory`</br>
-zsh  : `export PYTHONPATH=$PYTHONPATH:/path/to/the/lib/directory`</br>
-fish : `set -x PYTHONPATH $PYTHONPATH /path/to/the/lib/directory`</br>
+bash : `export PYTHONPATH=$PYTHONPATH:/<path to the lib directory>`</br>
+csh  : `setenv PYTHONPATH "$PYTHONPATH:<path to the lib directory>`</br>
+zsh  : `export PYTHONPATH=$PYTHONPATH:<path to the lib directory>`</br>
+fish : `set -x PYTHONPATH $PYTHONPATH <path to the lib directory>`</br>
+
+`lib` is the directory present in this repository. it contains libraries used to train PLMs and generate sequences.</br>
 
 The above variable would need to be set everytime a terminal is opened.</br>
 Hence better way is to put the line in the respective configuration file.</br>
