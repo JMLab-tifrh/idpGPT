@@ -33,7 +33,6 @@ Eg. `python train_gpt.py -h'</br>
 - scikit-learn
 - pytorch
 - cuda
-- openMM
 - MDAnalysis
   
 
