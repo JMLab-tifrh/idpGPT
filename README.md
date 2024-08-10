@@ -27,6 +27,15 @@ For example, in bash, `source ~/.bashrc`.</br>
 Each script has its usage instructions. type `python <script> -h` to see help.</br>
 Eg. `python train_gpt.py -h'</br>
 
+## Requirements
+- numpy
+- openMM
+- scikit-learn
+- pytorch
+- cuda
+- openMM
+- MDAnalysis
+  
 
 ## Disclaimer
 We have used the codes in https://github.com/Infatoshi/fcc-intro-to-llms as a reference for our codes.
