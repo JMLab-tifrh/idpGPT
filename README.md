@@ -27,6 +27,26 @@ For example, in bash, `source ~/.bashrc`.</br>
 Each script has its usage instructions. type `python <script> -h` to see help.</br>
 Eg. `python train_gpt.py -h'</br>
 
+## The output format when using the sequence generator
+The sequences generated are saved in a the fasta format which is a standard format to save protein sequence(s).</br>
+Fasta files are plain text files and generally have the extension .fa or .fasta. Below is an example of a file in fasta format</br>
+```
+>prot1
+RGGAFGGKLVFFSSRGG
+>prot 2
+MAVCQYPLVVQQK
+```
+The line(s) starting with ">" contains the sequences identifier(s). It does not have to be unique for each sequence, but the fasta format requires an identifier.
+Below an identifier and before the next identifier, a protein sequence will be written. For long protein sequences, the sequences can be decomposed into multiple
+lines for readability. An example for a longer dummy sequence is given below:
+```
+>dummy sequence (95 residues)
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+> a shorter sequence
+VVVVVVVVV
+```
+
 ## Requirements
 - numpy
 - openMM
