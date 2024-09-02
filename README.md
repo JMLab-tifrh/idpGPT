@@ -47,7 +47,7 @@ lines for readability. An example for a longer dummy sequence is given below:
 >dummy sequence (95 residues)
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-> a shorter sequence
+>a shorter sequence
 VVVVVVVVV
 ```
 
