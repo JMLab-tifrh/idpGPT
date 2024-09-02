@@ -5,6 +5,10 @@ LLPS+ GPT : generates sequences highly prone to liquid liquid phase separation (
 LLPS- GPT : generates sequences which can undergo LLPS but with leser intensity than LLPS+. model saved as llps_minus_gpt.pt.</br>
 PDB* GPT  : generates sequences that would not undergo LLPS unless very drastic conditions are applied. model saved as no_PS.pt</br>
 
+Google Colab notebooks for generation and classification are available at the following links:</br>
+- For generation: https://bit.ly/4clObMP
+- For classification: https://bit.ly/4djlpgW
+
 ## Usage
 please set the following environment variable to use the scripts </br>
 bash : `export PYTHONPATH=$PYTHONPATH:<path to the lib directory>`</br>
